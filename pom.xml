@@ -39,7 +39,7 @@
         <developerConnection>scm:git:git@github.com:code4craft/webmagic.git</developerConnection>
         <url>git@github.com:code4craft/webmagic.git</url>
       <tag>webmagic-parent-0.6.1</tag>
-  </scm>
+    </scm>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -47,6 +47,7 @@
         </license>
     </licenses>
 
+    <!--< 父项目使用下述语句指定子项目 >-->
     <modules>
         <module>webmagic-core</module>
         <module>webmagic-extension/</module>
